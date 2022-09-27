@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bg-header{
+    background-image: url('img/gaming-gfe77787ec_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 18.75em;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    margin-bottom: 7px;
+}
+
+.btn-dark{
+    background-color: #4a7fad;
+    color: #ffffff;
+}
+
+.btn-secondary{
+    background-color: #141826;
+    color: #fff;
+}
+
+.btn-info{
+    background-color: #263940;
+    color: #ffffff;
+}
+
+.bg-navbar{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 1.5em 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.navbar-img{
+    width: 2em;
+}
+
+.navbar-nav{
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-link{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.3em;
+}
+
+.nav-link:hover{
+    background-color: #8C8C8C;
+    color: #000;
+    border-radius: 5px;
+    transition: 150ms all;
+}
+
+/* main */
+.main{
+    width: 310px;  /*proximamente tal vez quitar esta propiedad */
+    margin-top: -2em;
+    padding: 0.3em;
+    background-color: white;
+    border-radius: 0.3em;
+}
+
+.main-tittle{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* card */
+.card{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.card-1{
+    background-color: #4D5159;
+    color: #fff;
+}
+
+.card-2{
+    background-color: #5B83A6;
+}
+
+.card-3{
+    background-color: #141826;
+    color: #fff;
+}
+
+.card-4{
+    background-color: #BF3F34;
+    color: #fff;
+}
+
+.card-5{
+    color: #ffffff;
+    background-color: #8C3E3E;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-body{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.card-body h5{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.bg-footer{
+    background-color: #141826;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-footer p{
+    padding: 0.5em;
+    margin: 0;
+}
