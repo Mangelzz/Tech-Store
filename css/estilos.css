@@ -62,6 +62,13 @@ body {
     align-items: center;
 }
 
+@media (min-width: 768px){
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 .navbar-brand{
     display: flex;
     flex-direction: column;
@@ -73,12 +80,25 @@ body {
     font-weight: 500;
 }
 
+@media (min-width: 768px){
+    .navbar-brand{
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+}
+
 .navbar-img{
     width: 2em;
 }
 
+@media (min-width: 768px){
+    .navbar-img{
+        margin-right: 1rem;
+    }
+}
+
 .navbar-nav{
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.774);
     padding: 5px;
     border-radius: 5px;
 }
@@ -100,7 +120,7 @@ body {
 
 /* main */
 .main{
-    width: 310px;  /*proximamente tal vez quitar esta propiedad */
+    /* width: 310px; proximamente tal vez quitar esta propiedad */
     margin-top: -2em;
     padding: 0.3em;
     background-color: white;
@@ -112,9 +132,23 @@ body {
     text-transform: uppercase;
 }
 
+@media (min-width: 768px) {
+    .card{
+        width: 30%;
+    }
+    .tienda{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
 /* card */
 .card{
-    width: 300px;
+    /* width: 300px; */
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 1em;
@@ -171,6 +205,52 @@ body {
     margin: 0;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #141826;
+}
+
+.nosotros__img{
+    background-image: url('../img/nosotros-body.jpg');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 2;
+}
+
+@media (min-width: 576px){
+    .nosotros__img{
+        height: 30em;
+    }
+}
+
+.nosotros__body{
+    padding: 1em;
+    color: #fdfdfd;
+    text-align: center;
+}
+
+.nosotros__info{
+    order: 1;
+}
+
+@media (min-width: 768px){
+    .nosotros{
+        flex-direction: row;
+    }
+    .nosotros__img{
+        order: 1;
+    }
+    .nosotros__info{
+        order: 2;
+    }
 }
 
 .bg-footer{
