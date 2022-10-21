@@ -40,7 +40,8 @@
     border: none;
     padding: 8px;
     border-radius: 10px;
-    background-color: transparent;
-    border: 2px solid rgb(106, 240, 106);
+    background-color: #024873;
+    border: 2px solid #024873;
     color: #fff;
+    font-style: italic;
 }
